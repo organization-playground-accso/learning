@@ -12,3 +12,9 @@ jobs:
 
       - name: Check out the repository
         run: echo "Checking out the repository"
+
+  foobar:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Foobar
+        run: echo "Fooooobar or better AFOG?"
