@@ -1,0 +1,14 @@
+name: learn-github
+
+run-name: ${{ github.actor }} is learning GitHub Actions
+
+on: [push]
+
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out the repository
+        run: echo "Checking out the repository"
