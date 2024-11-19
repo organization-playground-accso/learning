@@ -1,6 +1,6 @@
 # ready-pack-explore-backend
 
-aha
+foobar
 
 ## Getting started
 
