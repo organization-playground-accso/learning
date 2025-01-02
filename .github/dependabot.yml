@@ -11,6 +11,12 @@ updates:
       interval: "weekly"
     target-branch: "develop"
     open-pull-requests-limit: 5
+  - package-ecosystem: "maven"
+    directory: "/example-java-service"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+    open-pull-requests-limit: 5
   - package-ecosystem: "npm"
     directory: "/web-app"
     schedule:
